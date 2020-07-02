@@ -1,0 +1,124 @@
+*{
+    /* outline: solid red 1px; */
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: lightskyblue;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+
+.container
+{
+
+}
+
+
+.table
+{
+    border: solid white 1px;
+    padding: 20px;
+}
+
+select 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #a4bfef;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+input[type=submit] 
+{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type=text] 
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    transition: 0.5s;
+    color: honeydew;
+    
+}
+
+input[type=password] 
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    transition: 0.5s;
+    color: honeydew;
+    
+}
+
+input[type=email] 
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    transition: 0.5s;
+    color: honeydew;
+    
+}
+
+input[type=date] 
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    transition: 0.5s;
+    color: honeydew;
+    
+}
+
+
+input[type=submit]:hover
+{
+    background: #a4bfef;
+}

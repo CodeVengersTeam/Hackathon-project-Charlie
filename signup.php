@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
     <title>form testing</title>
 </head>
 <body>
@@ -14,9 +14,9 @@ if($_POST["signup"] == 1)
 
 ?>
 
-<div class="c">
+<div class="container">
 <form action="db.php" method="POST">
-    <div class="a">
+    
     <table>
         <tr>
             <td>
@@ -79,10 +79,10 @@ if($_POST["signup"] == 1)
         </tr>
         <tr>
             <td>
-                Mobile Number
+                Phone Number
             </td>
             <td>
-            <input type="Phone"  name = "phonenumber" >
+            <input type="text"  name = "phonenumber" >
             </td>
         </tr>
         <tr>
@@ -168,9 +168,11 @@ if($_POST["signup"] == 1)
         <td><input type="submit"  value="Signup"></td>
         </tr>
     </table>
-    </div>
+    
 </form>
+
 </div>
+
 <?php
 
 }
