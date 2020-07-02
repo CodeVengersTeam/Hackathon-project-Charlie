@@ -109,14 +109,7 @@ if($_POST["signup"] == 1)
             <input type="text" name = "add2">
             </td>
         </tr>
-        <tr>
-            <td>
-            Address Line 3
-            </td>
-            <td>
-            <input type="text"  name = "add3">
-            </td>
-        </tr>
+        
         <tr>
             <td>
                 City
