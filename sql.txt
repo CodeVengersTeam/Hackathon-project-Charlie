@@ -1,0 +1,39 @@
+mysql -u root
+
+create database charliestore;
+
+use charliestore;
+
+create table customers
+
+(
+    customerid int not null auto_increment, 
+    firstname varchar(50), 
+    middlename varchar(50), 
+    lastname varchar(50), 
+    dateofbirth date, 
+    gender varchar(20), 
+    phone varchar(20), 
+    email varchar(100), 
+    address1 varchar(200), 
+    address2 varchar(200), 
+    pincode varchar(15), 
+    city varchar(100), 
+    state varchar(100), 
+    country varchar(100), 
+    payment varchar(100), 
+    password varchar(255), 
+    primary key (customerid)
+);
+
+
+create table products 
+(
+    productid int not null auto_increment, 
+    productname varchar(75), 
+    manufacturingdate date, 
+    inventoryquantity int, 
+    priceperunit decimal(10, 3), 
+    tags varchar(200), 
+    primary key (productid) 
+);
