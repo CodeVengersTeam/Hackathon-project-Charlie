@@ -15,7 +15,7 @@ if($_POST["signup"] == 1)
 ?>
 
 <div class="container">
-<form action="db.php" method="POST">
+<form action="userdb.php" method="POST">
     
     <table>
         <tr>
@@ -153,6 +153,7 @@ if($_POST["signup"] == 1)
                     <option>Credit Card</option>
                     <option>Debit Card</option>
                     <option>Gpay</option>
+                    <option>BHIM UPI</option>
                 </select>
             
             </td>
@@ -171,7 +172,7 @@ if($_POST["signup"] == 1)
 }
 else 
 {
-    header("Location: login.php");
+    header("Location: userlogin.php");
 }
 
 ?>

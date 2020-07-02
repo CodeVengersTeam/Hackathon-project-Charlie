@@ -45,10 +45,6 @@ if($_POST["Add to Inventory"] == 1)
 <?php
 
 }
-else 
-{
-    header("Location: login.php");
-}
 
 ?>
 

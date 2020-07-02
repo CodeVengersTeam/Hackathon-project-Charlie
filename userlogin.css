@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: chartreuse;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+table{
+    font-size: 25px;
+    background-color: black;
+    padding:60px 60px ;
+    border-radius: 10px;
+}
+.loginbutton{
+   padding-left: 60px;
+ 
+    
+}
+.signupbutton{
+    padding-left: 60px;
+}
+.email{
+    padding-bottom: 50px;
+    padding-left: 33px;
+}
+.emailinput{
+    padding-bottom: 50px;
+margin-left: 8px;
+}
+.password{
+    padding-bottom: 30px;
+}
+.passwordinput{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+input{
+    font-size: 20px;
+    border: none;
+}
+.logininput{
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.signupinput{
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 5px 5px;
+}

@@ -24,7 +24,7 @@ Password:
 
 </td></tr>
 </table>
-<input type="hidden" name="s" value=1>
+
 
 </form>
 
