@@ -39,3 +39,15 @@ create table products
     primary key (productid) 
 );
 
+
+create table admin
+(
+    adminid int not null auto_increment,
+    adminname varchar(200),
+    adminpassword varchar(255),
+    primary key (adminid)
+)
+
+
+insert into admin (adminname, adminpassword) values ('mihika', 'mihika831');
+insert into admin (adminname, adminpassword) values ('dheeraj', 'dheeraj1234');

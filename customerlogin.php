@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="authenticate.php"  method="POST">
+<form action="authenticatecustomer.php"  method="POST">
 <table>
 <tr >
 <td class="email">
@@ -24,13 +24,15 @@ Email:
 Password:
 </td>
 <td class="passwordinput">
-<input type="password" placeholder="Password" name="password">
+<input type="password" placeholder="Password" name="loginpassword">
+
 
 </td>
 </tr>
 
 <tr>
 <td class="loginbutton"><input class="logininput" type="submit" value="Login">
+<input type="hidden" name="login" value=1>
 </td>
 </form>
 <td class="signupbutton">

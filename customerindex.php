@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php
+if ($_POST["loginsuccess"] == 1)
+{
+
+?>
     <div class="container">
         <div class="tile1">
             <h1>Buy</h1>
@@ -18,5 +24,16 @@
             <h1>Cart</h1>
         </div>
     </div>
+
+<?php
+}
+else
+{
+    header("Location: customerlogin.php");
+}
+
+
+?>
+
 </body>
 </html>
