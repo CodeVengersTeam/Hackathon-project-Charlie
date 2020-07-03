@@ -7,6 +7,12 @@
     <title>Admin Index</title>
 </head>
 <body>
+
+<?php
+if ($_POST["loginsuccess"] == 1)
+{
+
+?>
     <div class="container">
         <div class="tile1">
             <h1>View Customers</h1>
@@ -25,5 +31,18 @@
             <h1>Add Admin</h1>
         </div>
     </div>
+
+
+
+    <?php
+}
+else
+{
+    header("Location: adminlogin.php");
+}
+
+
+?>
+
 </body>
 </html>

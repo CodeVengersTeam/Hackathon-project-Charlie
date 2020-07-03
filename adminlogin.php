@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="adminlogin.css">
     <title>Admin Login</title>
 </head>
-<body><form action="adminindex.php"  method="POST">
+<body><form action="authenticateadmin.php"  method="POST">
 <table>
 <tr>
 <td class="email">
 Email:
 </td>
 <td class="emailinput">
-<input type="email" placeholder="Email" name="email">
+<input type="text" placeholder="Admin Name" name="adminname">
 
 </td>
 </tr>
@@ -23,14 +23,14 @@ Password:
 </td>
 <td class="passwordinput">
 
-<input type="password" placeholder="Password" name="password">
+<input type="password" placeholder="Password" name="adminpassword">
 
 </td>
 </tr>
 
 <tr>
 <td class = "login button"><input class="logininput" type="submit" value="Login As Admin">
-
+<input type="hidden" name="login" value=1>
 </td></tr>
 </table>
 
