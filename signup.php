@@ -15,7 +15,8 @@
                 else if ( form.confirmpassword.value == '') 
                     alert ("Please enter confirm password"); 
                       
-                else{ 
+                else if (form.userpassword.value != form.confirmpassword.value)
+                { 
                     alert ("\nPassword did not match: Please try again...") 
                     return false; 
                 } 
@@ -107,7 +108,7 @@ if($_POST["signup"] == 1)
                 Date of Birth
             </td>
             <td>
-            <input type="date" placeholder="MM/DD/YYYY" name = "dateofbirth" required>
+            <input type="date" name = "dateofbirth" required>
             </td>
         </tr>
         <tr>

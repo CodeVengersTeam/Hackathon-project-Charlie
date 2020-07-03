@@ -16,6 +16,8 @@ if($_POST["s"]==1)
     $country = $_POST["country"];
     $pincode = $_POST["pincode"];
     $payment = $_POST["payment"];
+
+
     if($gender == "1")
     {
         $gender = "M";
@@ -72,11 +74,19 @@ $database = "charliestore";
 // create a connection
 $con = mysqli_connect($servername, $username, $password, $database);                 
 
-$sql = $sql="INSERT INTO customers (firstname,middlename,lastname,dateofbirth,gender,phone,email,address1, address2, pincode, city, statename,country,payment,userpassword) VALUES 
-('$firstname','$middlename','$lastname','$dateofbirth','$gender','$phone','$email','$address1', '$address2', '$pincode', '$city', '$statename','$country','$payment','$userpassword')";
+if(!$con)
+{
+    echo "Unsuccessful";
+}
+
+$sql= "INSERT INTO customers (firstname,middlename,lastname,dateofbirth,gender,phone,email,address1,address2,pincode,city,statename,country,payment,userpassword) VALUES ('$firstname','$middlename','$lastname','$dateofbirth','$gender','$phone','$email','$address1', '$address2','$pincode','$city','$statename','$country','$payment','$userpassword')";
+
+
+
 mysqli_query($con,$sql);
 echo "data inserted successfully<BR>";
 mysqli_close($con);
+  
 ?>
 
 

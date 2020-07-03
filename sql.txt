@@ -19,10 +19,10 @@ create table customers
     address2 varchar(200), 
     pincode varchar(15), 
     city varchar(100), 
-    state varchar(100), 
+    statename varchar(100), 
     country varchar(100), 
     payment varchar(100), 
-    password varchar(255), 
+    userpassword varchar(255), 
     primary key (customerid)
 );
 
