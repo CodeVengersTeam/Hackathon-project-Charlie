@@ -26,6 +26,6 @@ echo "data inserted successfully<BR>";
 mysqli_close($con);
 
 
-$inventoryquantity = $_POST["inventoryquantity"];
+
 }
 ?>
