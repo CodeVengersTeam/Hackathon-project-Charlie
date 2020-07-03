@@ -17,13 +17,10 @@ if ($_POST["loginsuccess"] == 1)
         <div class="tile1">
             <h1>View Customers</h1>
         </div>
-        <div class="tile2">
-            <h1>Products</h1>
-            <form action="addproduct.php" method="POST">
-                <input type="hidden" name="addproduct" value=1>
-                <input type="submit" value="Add Product">
-            </form>
-        </div>
+
+            
+            <a class="tile2" href="productindex.php"><h1>Products</h1></a>
+
         <div class="tile3">
             <h1>View Orders</h1>
         </div>

@@ -11,6 +11,10 @@
         <div class="tile1">
             <h1>
                 Add Products
+                <form action="addproduct.php" method="POST">
+                <input type="hidden" name="addproduct" value=1>
+                <input type="submit" value="Add Product">
+            </form>
             </h1>
         </div>
         <div class="tile2">
