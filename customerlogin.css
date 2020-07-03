@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -22,8 +22,11 @@ table{
 .loginbutton{
    padding-left: 60px;
  
+    
 }
-
+.signupbutton{
+    padding-left: 60px;
+}
 .email{
     padding-bottom: 50px;
     padding-left: 33px;
@@ -44,6 +47,11 @@ input{
     border: none;
 }
 .logininput{
+    background-color: #e0f7fa;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.signupinput{
     background-color: #e0f7fa;
     border-radius: 5px;
     padding: 5px 5px;

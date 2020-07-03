@@ -13,13 +13,16 @@
         </div>
         <div class="tile2">
             <h1>Products</h1>
-            <form action="product.php" method="POST">
+            <form action="addproduct.php" method="POST">
                 <input type="hidden" name="addproduct" value=1>
                 <input type="submit" value="Add Product">
             </form>
         </div>
         <div class="tile3">
             <h1>View Orders</h1>
+        </div>
+        <div class="tile4">
+            <h1>Add Admin</h1>
         </div>
     </div>
 </body>
