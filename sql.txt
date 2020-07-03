@@ -31,9 +31,11 @@ create table products
 (
     productid int not null auto_increment, 
     productname varchar(75), 
+    productimage varchar(255),
     manufacturingdate date, 
     inventoryquantity int, 
     priceperunit decimal(10, 3), 
     tags varchar(200), 
     primary key (productid) 
 );
+
