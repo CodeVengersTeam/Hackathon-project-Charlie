@@ -36,6 +36,7 @@ if($_POST["signup"] == 1)
 <form onSubmit = "return checkPassword(this)" action="userdb.php" method="POST">
 
     <table>
+        <h2>Signup</h2>
         <tr>
             <td>
                 First Name
