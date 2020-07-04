@@ -16,7 +16,7 @@ if($_POST["addproduct"] == 1)
 
 ?>
 
-<form action="productdb.php" method="POST">
+<form action="addproductdb.php" method="POST">
 <div class="grid-container">
     <div class="grid-item">
         <label for="productname">Product Name</label>
