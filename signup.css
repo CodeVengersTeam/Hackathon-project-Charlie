@@ -13,12 +13,11 @@ body
 }
 
 
-
-
-.container
-{
-
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
 
 
 .table
@@ -29,16 +28,17 @@ body
 
 select 
 {
-    width: 100%;
+    width: 75%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border-radius: 50px;
     outline: none;
     border: none;
-    background-color: #a4bfef;
+    background-color: #0097a7;
     transition: 0.5s;
     cursor: pointer;
+    color: white;
 }
 
 
@@ -120,5 +120,5 @@ input[type=date]
 
 input[type=submit]:hover
 {
-    background: #a4bfef;
+    background: #0097a7;
 }

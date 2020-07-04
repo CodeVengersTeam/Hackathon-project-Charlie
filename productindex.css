@@ -77,4 +77,10 @@ justify-items: center;
       justify-items: center;
       cursor: pointer;
     }
+    .productbutton{
+      border: none;
+      border-radius: 5px;
+      padding: 5px 5px;
+      background-color: #82b1ff;
+    }
    

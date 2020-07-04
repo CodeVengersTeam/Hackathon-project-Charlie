@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container{
+    margin-top: 100px;
+    font-size: 25px;
+    background-color: #03a9f4;
+    padding:60px 60px ;
+    border-radius: 10px;
+    
+}
+.name{
+    padding-bottom: 5px;
+    padding-left: 99px;
+}
+.email{
+    padding-bottom: 5px;
+    padding-left: 101px;
+}
+.phone{
+    padding-bottom: 5px;
+    
+}
+.id{
+    padding-bottom: 10px;
+    padding-left: 75px;
+}
+.description{
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+.button{
+    padding-left: 160px;
+    
+}
+.logininput{
+    background-color: #e0f7fa;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 5px;
+    
+}
+input{
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+.descriptioninput{
+    min-height: 100px;
+}

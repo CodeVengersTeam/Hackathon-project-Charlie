@@ -13,13 +13,17 @@
                 Add Products
                 <form action="addproduct.php" method="POST">
                 <input type="hidden" name="addproduct" value=1>
-                <input type="submit" value="Add Product">
+                <input class="productbutton"type="submit" value="Add Product">
             </form>
             </h1>
         </div>
         <div class="tile2">
             <h1>
                 View Products
+                <form action="adminviewproduct.php" method="POST">
+                <input type="hidden" name="viewproduct" value=1>
+                <input class="productbutton"type="submit" value="View Products">
+            </form>
             </h1>
         </div>
         <div class="tile3">
