@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: deepskyblue;
+    display:flex;
+    justify-content: center;
+
+  
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10px;
+        font-size: 25px;
+    padding:50px;
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: blueviolet;
+    border-radius: 12px;
+
+    
+}
+input{
+    border-radius: 12px;
+    font-size: 25px;
+}
+.grid-item{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
