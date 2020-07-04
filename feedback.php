@@ -51,18 +51,20 @@
             <input type="radio" value=5 name="packaging">Excellent
         </div>
         <div class="delivery field">
-            Variety of Products: <br>
-            <input type="radio" value=1 name="variety">Poor
-            <input type="radio" value=2 name="variety">Below Average
-            <input type="radio" value=3 name="variety">Average
-            <input type="radio" value=4 name="variety">Good
-            <input type="radio" value=5 name="variety">Excellent
+            Quality of Products: <br>
+            <input type="radio" value=1 name="quality">Poor
+            <input type="radio" value=2 name="quality">Below Average
+            <input type="radio" value=3 name="quality">Average
+            <input type="radio" value=4 name="quality">Good
+            <input type="radio" value=5 name="quality">Excellent
         </div>
         <div class="comments field">
             <label for="comments">Comments:</label> <br>
             <input class="commentsinput"type="text" name="comments">
         </div>
-        <div class="button field"><input class="logininput" type="submit" value="Submit"></div>
+        <div class="button field"><input class="logininput" type="submit" value="Submit">
+        <input  type="hidden" name="s" value=1>
+    </div>
     </div>
 </body>
 </html>
