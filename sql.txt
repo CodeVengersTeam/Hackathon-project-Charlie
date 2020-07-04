@@ -46,7 +46,7 @@ create table admin
     adminname varchar(200),
     adminpassword varchar(255),
     primary key (adminid)
-)
+);
 
 
 insert into admin (adminname, adminpassword) values ('mihika', 'mihika831');
