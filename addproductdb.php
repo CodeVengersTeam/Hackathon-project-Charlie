@@ -25,7 +25,14 @@ mysqli_query($con,$sql);
 echo "data inserted successfully<BR>";
 mysqli_close($con);
 
+?>
 
+                <form action="addproduct.php" method="POST">
+                <input type="hidden" name="addproduct" value=1>
+                <input type="submit" value="Add more Product">
+                </form>
+
+<?php
 
 }
 ?>

@@ -10,7 +10,7 @@
 
 <form action="authenticatecustomer.php"  method="POST">
 <table>
-<tr >
+<tr>
 <td class="email">
 Email:
 </td>
@@ -44,3 +44,5 @@ Password:
 </td>
 </tr>
 </table>
+</body>
+</html>
