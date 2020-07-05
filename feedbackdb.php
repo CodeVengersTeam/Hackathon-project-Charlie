@@ -1,14 +1,14 @@
 <?php
 if($_POST["s"]==1)
-    $name = $_POST["name"];
+    $username = $_POST["username"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $orderid = $_POST["orderid"];
     $deliveryspeed = $_POST["deliveryspeed"];
-    $$deliveryexp = $_POST["deliveryexp"];
+    $deliveryexp = $_POST["deliveryexp"];
     $packaging = $_POST["packaging"];
     $quality = $_POST["quality"];
-    
+    $comments = $_POST["comments"];
     if( $deliveryspeed == "1")
     {
         $deliveryspeed = "P";
@@ -88,5 +88,29 @@ if($_POST["s"]==1)
     else{
         $quality = "E";
     }
+
+
+// connecting to database
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "charliestore";
+
+// create a connection
+$con = mysqli_connect($servername, $username, $password, $database);                 
+
+if(!$con)
+{
+    echo "Unsuccessful";
+}
+
+$sql= "INSERT INTO feedback (username,email,phone,orderid,deliveryspeed,deliveryexp,packaging,quality, comments) VALUES ('$name','$email','$phone','$orderid','$deliveryspeed','$deliveryexp','$packaging','$quality','$comments')";
+
+
+
+mysqli_query($con,$sql);
+echo "data inserted successfully<BR>";
+mysqli_close($con);
+
 
 ?>

@@ -51,3 +51,18 @@ create table admin
 
 insert into admin (adminname, adminpassword) values ('mihika', 'mihika831');
 insert into admin (adminname, adminpassword) values ('dheeraj', 'dheeraj1234');
+
+
+create table feedback
+(
+    feedbackid int not null auto_increment,
+    name varchar(200),
+    email varchar(200),
+    phone varchar(50),
+    orderid varchar(100),
+    deliveryspeed varchar(100),
+    delieveryexp varchar(100),
+    packaging varchar(100),
+    quality varchar(100),
+    primary key (feedbackid)
+);

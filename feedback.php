@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="feedback.css">
-    <title>Document</title>
+    <title>Feedback</title>
 </head>
 <body>
     <div class="head">Customer Feedback</div>
     <div class="container">
+        <form action="feedbackdb.php" method="post">
         <div class="name field">
-            <label id="label" for="name">Name:</label> <br>
-            <input type="text" name="name">
+            <label id="label" for="username">Name:</label> <br>
+            <input type="text" name="username">
         </div>
         <div class="email field">
             <label for="email">Email:</label> <br>
@@ -64,6 +65,7 @@
         </div>
         <div class="button field"><input class="logininput" type="submit" value="Submit">
         <input  type="hidden" name="s" value=1>
+        </form>
     </div>
     </div>
 </body>
