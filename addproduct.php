@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="addproduct.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
 
     <title>product inventory</title>
 </head>
@@ -52,11 +52,12 @@ if($_POST["addproduct"] == 1)
     </div>
     <div class="grid-item">
         <input type="hidden" name="addproduct" value=1>
-        </div><div class="inventory">
+        </div>   
+</div>
+<div class="inventory">
         <input class="addbutton" type="submit"  value="Add to Inventory">
     </div>
-   
-</div>
+
 </form>
 
 
