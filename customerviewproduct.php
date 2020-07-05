@@ -1,3 +1,6 @@
+
+
+
 <?php
 
 // connecting to database
@@ -90,7 +93,7 @@ if(isset($_GET["success"])) // no bootstrap here
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="customerviewproduct.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Buy Products</title>
 </head>
 
@@ -114,17 +117,16 @@ if ($conn->connect_error)
         <!-- <div class="image">
             <img src="productpic.jpg" alt="#" style="width:100%">
         </div> -->
-        <div class="cost">
-            <h3>Per Piece Cost: 
+        <div class="name">
+            <h3>Item name: 
             <?php 
             
-            echo $row["priceperunit"];  echo"<br><br>";
-            echo $row["gst"]; 
+            echo $row["productname"];  echo"<br><br>";
             
             ?></h3>
         </div>
-        <div class="name">
-            <p><?php echo $row["productname"]; ?></p>
+        <div class="cost">
+            <p><?php echo $row["priceperunit"]; ?></p>
             <p></p>
         </div>
         <div class="btn">
