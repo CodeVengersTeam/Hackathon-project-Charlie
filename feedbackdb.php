@@ -9,6 +9,8 @@ if($_POST["s"]==1)
     $packaging = $_POST["packaging"];
     $quality = $_POST["quality"];
     $comments = $_POST["comments"];
+
+    
     if( $deliveryspeed == "1")
     {
         $deliveryspeed = "P";
@@ -104,7 +106,7 @@ if(!$con)
     echo "Unsuccessful";
 }
 
-$sql= "INSERT INTO feedback (username,email,phone,orderid,deliveryspeed,deliveryexp,packaging,quality, comments) VALUES ('$name','$email','$phone','$orderid','$deliveryspeed','$deliveryexp','$packaging','$quality','$comments')";
+$sql = "INSERT INTO feedback (username,email,phone,orderid,deliveryspeed,deliveryexp,packaging,quality,comments) VALUES ('$username','$email','$phone','$orderid','$deliveryspeed','$deliveryexp','$packaging','$quality','$comments')";
 
 
 
