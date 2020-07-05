@@ -4,6 +4,11 @@ if($_POST["s"]==1)
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $orderid = $_POST["orderid"];
+    $deliveryspeed = $_POST["deliveryspeed"];
+    $$deliveryexp = $_POST["deliveryexp"];
+    $packaging = $_POST["packaging"];
+    $quality = $_POST["quality"];
+    
     if( $deliveryspeed == "1")
     {
         $deliveryspeed = "P";
