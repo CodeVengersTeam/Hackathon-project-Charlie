@@ -11,7 +11,7 @@
 <body>
 <div class="card">
 <div class="image">
-    <img src="productpic.jpg" alt="#" style="width:100%">
+    <img src="toothpaste.jpg" alt="#" style="width:100%">
 </div>
 <div class="cost">
 <h3>30.00</h3>
