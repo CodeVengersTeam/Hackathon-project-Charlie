@@ -132,7 +132,7 @@ if ($conn->connect_error)
         <div class="btn">
             <form name="form" action="customerviewproduct.php" method="post">
                 <input type="number" min="1" name="orderquantity" placeholder="Quantity" >
-
+                    <br><br>
                 <input type="hidden" name="hidden_name" value="<?php echo $row["productname"]; ?>" />
                 <input type="hidden" name="hidden_price" value="<?php echo $row["priceperunit"]; ?>" />
                 <input type="hidden" name="hidden_id" value="<?php echo $row["productid"]; ?>" />
